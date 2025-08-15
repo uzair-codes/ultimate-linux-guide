@@ -92,7 +92,10 @@ userdel -r username
 ```bash
 groupadd groupname
 ```
-
+### Deleting Group
+```bash
+groupdel groupname
+```
 ### Adding Users to Groups
 ```bash
 usermod -aG groupname username
