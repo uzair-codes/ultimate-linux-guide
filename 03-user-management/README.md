@@ -100,6 +100,16 @@ groupdel groupname
 ```bash
 usermod -aG groupname username
 ```
+### Deleting User from Group
+- **Using gpasswd** 
+```bash
+sudo gpasswd -d username groupname
+```
+
+- **Using deluser (Debian/Ubuntu)**
+```bash
+sudo deluser username groupname
+```
 
 ### Viewing Group Memberships
 ```bash
