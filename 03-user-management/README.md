@@ -53,7 +53,15 @@ passwd username
   ```bash
   passwd -u username
   ```
-
+- **Check Password Status**
+  ```bash
+  passwd -S username
+  ```
+- **Delete user Password**
+  ```bash
+  passwd -d username
+  ```
+  
 ## Modifying Users
 Modify an existing user with `usermod`:
 - Change the username:
