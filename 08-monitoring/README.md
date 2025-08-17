@@ -10,6 +10,7 @@ Monitoring system resources is essential to ensure optimal performance, detect i
 - `htop` – Interactive process viewer (requires installation)
 - `vmstat` – Report system performance statistics
 - `free -m` – Show memory usage
+- `nproc` - Shows number of CPU cores your system has 
 
 ### Disk Monitoring
 - `df -h` – Check disk space usage
